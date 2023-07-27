@@ -1,0 +1,29 @@
+.signup_image--container {
+  background-image: url(https://images.unsplash.com/photo-1531535701800-03b2bec4fbfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+  height: 70vh;
+  background-size: cover;
+}
+
+.signup_form--container,
+.login_form--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login_image--container {
+  background-image: url(https://www.androidauthority.com/wp-content/uploads/2022/09/People-using-an-Apple-iPhone-stock-photo-19.jpg);
+  height: 70vh;
+  background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+  .login_image--container,
+  .signup_image--container {
+    display: none;
+  }
+}
+
+/* https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png */
